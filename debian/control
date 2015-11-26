@@ -1,0 +1,12 @@
+Source: ros-indigo-fulanghua-navigation
+Section: misc
+Priority: extra
+Maintainer: Daiki Maekawa <d.maekawa@rapyuta-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-fulanghua-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-fulanghua-ekf-2d, ros-indigo-fulanghua-srvs, ros-indigo-fulanghua-static-path-publisher, ros-indigo-fulanghua-waypoints-nav
+Description: The fulanghua_navigation package
